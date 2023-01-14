@@ -58,7 +58,7 @@ Array(200).fill().forEach(addStar);
 
 // Tlo
 
-const spaceTexture = new THREE.TextureLoader().load("space.jpg");
+const spaceTexture = new THREE.TextureLoader().load("./img/space.jpg");
 scene.background = spaceTexture;
 
 // Avatar
@@ -75,7 +75,7 @@ scene.add(avatar);
 // Ziemia
 
 const teksturaZiemii = new THREE.TextureLoader().load("./img/earth.jpg");
-const normalZiemii = new THREE.TextureLoader().load("./img/earth_normal.jpg");
+const normalZiemii = new THREE.TextureLoader().load("./img/earth_normal.tif");
 
 const ziemia = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
